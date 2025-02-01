@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+#hazelnutid
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#Index_OPG
+{
+    color: white;
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+.sivi_opis
+{
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 4%;
+    text-align: center;
+    
+}
+.sivi_opis_bez_text_align
+{
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 4%;
+    
+    
+}
+.slika
+{
+    
+    max-width: 100%;
+    height: auto;
+      
+}
+#VijestiID
+{
+    font-weight: bold;
+}
+.kartica
+{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) ;
+    border: 0;
+    
+}
+.slika_kartice
+{
+    object-fit: cover; height: 200px; width: 100%;
+}
+.slika_osobe
+{
+    object-fit: cover; height: 150px; width: 150px;
+}
+.Naslov
+{
+    font-weight: bold;
+}
+#formResult {
+    display: none; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 300px; 
+    position: relative; 
+    bottom: 0; 
+    margin-top: 50px;
+    
+}
